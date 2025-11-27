@@ -1,12 +1,95 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "sakukoro-pomodoro",
+  "version": "1.0.0",
+  "description": "SakukoPomod - Desktop Application",
+  "main": "electron/main.js",
   "private": true,
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
+    "build": "next build && node scripts/fix-html-paths.js",
+    "export": "next build && node scripts/fix-html-paths.js",
+    "obfuscate": "node obfuscate.js",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "clean": "node scripts/clean.js",
+    "electron": "electron .",
+    "electron:dev": "concurrently \"cross-env BROWSER=none npm run dev\" \"wait-on http://localhost:3000 && cross-env ELECTRON_START_URL=http://localhost:3000 electron .\"",
+    "electron:dev:simple": "concurrently \"npm run dev\" \"wait-on http://localhost:3000 && cross-env ELECTRON_START_URL=http://localhost:3000 electron .\"",
+    "electron:build": "npm run clean && npm run build && npm run obfuscate && electron-builder",
+    "electron:build:win": "npm run clean && npm run build && npm run obfuscate && electron-builder --win",
+    "electron:build:mac": "npm run clean && npm run build && npm run obfuscate && electron-builder --mac",
+    "electron:build:linux": "npm run clean && npm run build && npm run obfuscate && electron-builder --linux",
+    "generate-icons": "node scripts/generate-store-icons.js",
+    "prepare-store": "npm run generate-icons && npm run electron:build:win",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "build": {
+    "appId": "com.sakukoro.pomodoro",
+    "productName": "Sakukoro Pomodoro",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "out/**/*",
+      "electron/**/*",
+      "public/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "asarUnpack": [
+      "**/node_modules/sharp/**/*",
+      "**/node_modules/@img/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable",
+        "appx"
+      ],
+      "icon": "public/sakukoro-icon.png",
+      "publisherName": "Sakukoro",
+      "verifyUpdateCodeSignature": false
+    },
+    "appx": {
+      "identityName": "Sakukoro.Pomodoro",
+      "publisher": "CN=YOUR_PUBLISHER_ID_FROM_PARTNER_CENTER",
+      "publisherDisplayName": "Sakukoro",
+      "applicationId": "SakukoroPomodoro",
+      "displayName": "Sakukoro Pomodoro",
+      "languages": ["en-US", "th-TH"],
+      "backgroundColor": "#fef6f3",
+      "addAutoLaunchExtension": false,
+      "showNameOnTiles": true,
+      "setBuildNumber": true
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "public/sakukoro-mascot.png",
+      "uninstallerIcon": "public/sakukoro-mascot.png",
+      "installerHeaderIcon": "public/sakukoro-mascot.png",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Sakukoro Pomodoro"
+    },
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "public/sakukoro-mascot.png",
+      "category": "public.app-category.productivity"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "public/sakukoro-mascot.png",
+      "category": "Utility"
+    }
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -38,7 +121,9 @@
     "@radix-ui/react-toggle-group": "1.1.1",
     "@radix-ui/react-tooltip": "1.1.6",
     "@vercel/analytics": "latest",
+    "auto-launch": "^5.0.6",
     "autoprefixer": "^10.4.20",
+    "canvas": "^3.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
@@ -65,9 +150,20 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.12",
+    "javascript-obfuscator": "^4.1.1",
     "postcss": "^8.5",
     "tailwindcss": "^4.1.9",
     "tw-animate-css": "1.3.3",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wait-on": "^9.0.1",
+    "prettier": "^3.3.0",
+    "prettier-plugin-tailwindcss": "^0.6.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "sharp": "^0.33.0"
   }
 }

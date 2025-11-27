@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
+
+# Cache
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment
+.env*
+!.env.example
+
+# Generated
+public/icons/
+
+# Other
+*.md
+*.json
