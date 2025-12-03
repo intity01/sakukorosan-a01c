@@ -1,132 +1,117 @@
 # Privacy Policy for SakuDoko
 
-**Last updated**: January 2024
+**Last updated**: December 2024
 
-## Introduction
+---
 
-SakuDoko ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle your information when you use our Pomodoro timer application.
+## Summary
+
+**We do NOT collect any personal data. Everything stays on your device. 🔒**
+
+---
 
 ## Data Collection
 
-**We do NOT collect any personal data.**
-
-SakuDoko is designed with privacy in mind:
-- ✅ No user accounts required
-- ✅ No personal information collected
-- ✅ No data sent to external servers
+SakuDoko does **NOT** collect any personal information:
+- ✅ No user accounts
+- ✅ No personal data collection
+- ✅ No data sent to servers
 - ✅ No tracking or analytics
-- ✅ No cookies or similar technologies
+- ✅ No cookies
+
+---
 
 ## Data Storage
 
-All your data is stored **locally on your device only**:
+All data is stored **locally on your device only**:
 
-### What is stored locally:
-- **Tasks**: Your task list and task details
-- **Settings**: Your preferences (timer durations, themes, sounds)
-- **Statistics**: Your Pomodoro completion history
-- **Progress**: Your daily/weekly progress data
+### What is stored:
+- Tasks and task details
+- Settings and preferences
+- Statistics and progress
 
 ### Where it's stored:
-- **Desktop (Electron)**: localStorage in your user profile
-- **Location**: `%APPDATA%/sakudoko/` (Windows) or `~/Library/Application Support/sakudoko/` (macOS)
+- Windows: `%APPDATA%/sakudoko/`
+- All data uses browser localStorage
 
-### Data Control:
-- You have full control over your data
-- You can export your data anytime
-- You can delete all data from settings
-- Uninstalling the app removes all data
+### Your control:
+- Export your data anytime
+- Delete all data from settings
+- Uninstalling removes all data
+
+---
 
 ## Third-Party Services
 
-We do **NOT** use any third-party services that collect data:
-- ❌ No analytics (Google Analytics, etc.)
+We do **NOT** use any third-party services:
+- ❌ No analytics
 - ❌ No crash reporting
-- ❌ No advertising networks
-- ❌ No social media integrations
-- ❌ No cloud sync services
+- ❌ No advertising
+- ❌ No cloud sync
+
+---
 
 ## Permissions
 
-### Desktop App (Windows/macOS):
-- **Notifications**: To alert you when timer completes
-- **System Tray**: To run in background
-- **Auto-start**: To launch on system startup (optional)
+### Required permissions:
+- **Notifications**: Alert you when timer completes
+- **System Tray**: Run in background (optional)
+- **Auto-start**: Launch on startup (optional)
 
-### Mobile App (Future):
-- **Notifications**: To alert you when timer completes
-- **Storage**: To save your tasks and settings locally
+All permissions can be disabled in settings.
 
-**Note**: All permissions are optional and can be disabled in settings.
+---
 
-## Data Security
+## Security
 
-We take data security seriously:
-- ✅ All data is stored locally on your device
-- ✅ No data transmission over the internet
-- ✅ Input sanitization to prevent XSS attacks
+- ✅ All data stored locally
+- ✅ No internet connection required
+- ✅ No data transmission
 - ✅ Secure coding practices
+
+---
 
 ## Children's Privacy
 
-SakuDoko does not collect any personal information from anyone, including children under 13. The app is safe for all ages.
+Safe for all ages. No data collection from anyone, including children under 13.
 
-## Changes to This Policy
+---
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by:
-- Updating the "Last updated" date
-- Showing a notification in the app (for major changes)
+## Data Management
 
-## Data Portability
+### Export Data:
+1. Open Settings → Data Management
+2. Click "Export Data"
+3. Save JSON file
 
-You can export your data at any time:
-1. Open Settings
-2. Go to Data Management
-3. Click "Export Data"
-4. Save the JSON file
+### Delete Data:
+1. Open Settings → Data Management
+2. Click "Delete All Data"
+3. Confirm deletion
 
-You can import this data later or use it in other applications.
+---
 
-## Data Deletion
+## Contact
 
-To delete all your data:
-1. Open Settings
-2. Go to Data Management
-3. Click "Delete All Data"
-4. Confirm deletion
+**Email**: aoom5961@gmail.com  
+**GitHub**: https://github.com/intity01/sakukorosan-a01c
 
-Or simply uninstall the application.
-
-## Contact Us
-
-If you have any questions about this Privacy Policy, please contact us:
-
-- **Email**: aoom5961@gmail.com
-- **GitHub**: https://github.com/intity01/SakuDokosan-a01c
-
-## Your Rights
-
-You have the right to:
-- ✅ Access your data (it's all on your device)
-- ✅ Export your data (via Export function)
-- ✅ Delete your data (via Delete function)
-- ✅ Control permissions (via Settings)
+---
 
 ## Compliance
 
-This Privacy Policy complies with:
+Complies with:
 - GDPR (General Data Protection Regulation)
 - CCPA (California Consumer Privacy Act)
 - COPPA (Children's Online Privacy Protection Act)
 
-Since we don't collect any data, compliance is straightforward.
+---
 
-## Open Source
+## Download
 
-SakuDoko is open source. You can review our code to verify our privacy claims:
-- **Repository**: https://github.com/intity01/SakuDokosan-a01c
-- **License**: MIT License
+Get SakuDoko from Microsoft Store:  
+👉 **[Download Now](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH)**
 
 ---
 
-**Summary**: We don't collect, store, or share any of your personal data. Everything stays on your device. Simple as that. 🔒
+**Your privacy is our priority. No data collection, period.** 🔒
