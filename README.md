@@ -14,31 +14,29 @@
 ## Features
 
 **Pomodoro Timer** 
-Focus sessions with customizable breaks
+- Focus sessions with customizable breaks
 **Task Management**
-Organize tasks with categories and priorities
+- Organize tasks with categories and priorities
 **Progress Tracking**
-Visual calendar and statistics
-**Desktop Notifications**
-Native Windows notifications
+- Visual statistics
 **Keyboard Shortcuts**
-Full keyboard navigation
+- Full keyboard navigation
 **Beautiful UI**
-Modern design with smooth animations
+- Modern design with smooth animations
 **Local Storage**
-All data stays on your device
+- All data stays on your device
 **Multi-language**
-English, Thai, Japanese
+- English, Thai, Japanese
 
 ---
 
 ## Privacy
 
-SakuDoko respects your privacy:
-No data collection
-No internet connection required
-All data stored locally on your device
-No tracking or analytics
+- SakuDoko respects your privacy:
+- No data collection
+- No internet connection required
+- All data stored locally on your device
+- No tracking or analytics
 
 See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for details.
 
@@ -53,8 +51,8 @@ MIT License
 ## Developer
 
 **MamiPoko**
-Email: aoom5961@gmail.com
-GitHub: [@intity01](https://github.com/intity01)
+- Email: aoom5961@gmail.com
+- GitHub: [@intity01](https://github.com/intity01)
 
 ---
 
