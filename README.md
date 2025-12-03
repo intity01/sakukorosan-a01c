@@ -13,21 +13,21 @@
 
 ## Features
 
-**Pomodoro Timer** 
-- Focus sessions with customizable breaks
-**Task Management**
-- Organize tasks with categories and priorities
-**Progress Tracking**
-- Visual statistics
-**Keyboard Shortcuts**
-- Full keyboard navigation
-**Beautiful UI**
-- Modern design with smooth animations
-**Local Storage**
-- All data stays on your device
-**Multi-language**
-- English, Thai, Japanese
 
+- Focus sessions with customizable breaks
+**Pomodoro Timer** 
+- Organize tasks with categories and priorities
+**Task Management**
+- Visual statistics
+**Progress Tracking**
+- Full keyboard navigation
+**Keyboard Shortcuts**
+- Modern design with smooth animations
+**Beautiful UI**
+- All data stays on your device
+**Local Storage**
+- English, Thai, Japanese
+**Multi-language**
 ---
 
 ## Privacy
