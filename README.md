@@ -10,7 +10,6 @@
   <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store" />
 </a>
 </div>
----
 
 ## Features
 
