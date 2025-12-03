@@ -1,5 +1,6 @@
+<div align="center">
 # SakuDoko - Pomodoro Timer
-
+</div>
 <div align="center">
 
 **A beautiful Pomodoro timer desktop app to boost your productivity**
