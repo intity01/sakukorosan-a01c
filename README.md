@@ -4,11 +4,9 @@
 
 **A beautiful Pomodoro timer desktop app to boost your productivity**
 
-[![Download on Microsoft Store](<a href="URL_แอปของคุณ_บน_STORE" target="_blank">
+<a href="URL_แอปของคุณ_บน_STORE" target="_blank">
   <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store" />
-</a>)
-
-</div>
+</a>
 
 ---
 
