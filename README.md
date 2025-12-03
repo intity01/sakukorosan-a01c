@@ -4,7 +4,16 @@
 
 **A beautiful Pomodoro timer desktop app to boost your productivity**
 
-[![Download on Microsoft Store](https://img.shields.io/badge/Download-Microsoft%20Store-blue?style=for-the-badge&logo=microsoft)](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH)
+[![Download on Microsoft Store](<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+<ms-store-badge
+	productid="9nb7fhv3xlhw"
+	productname="SakuDoko"
+	window-mode="direct"
+	theme="auto"
+	size="large"
+	language="en-us"
+	animation="on">
+</ms-store-badge>)
 
 </div>
 
