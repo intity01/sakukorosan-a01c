@@ -1,6 +1,6 @@
 <div align="center">
 
-  ***SakuDoko - Pomodoro Timer***
+  ## SakuDoko - Pomodoro Timer
 
 </div>
 
