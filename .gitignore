@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/.pnp
+.pnp.js
 
 # next.js
 /.next/
@@ -9,6 +11,22 @@
 
 # production
 /build
+/dist
+
+# electron
+/dist
+/dist-electron
+/release
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.appx
+*.msix
+*.msi
+
+# build assets (generated)
+/build-assets
 
 # debug
 npm-debug.log*
@@ -18,6 +36,7 @@ yarn-error.log*
 
 # env files
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -25,3 +44,54 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# backup files
+*.bak
+*.backup
+*.old
+*-old.*
+*-backup.*
+*.obfuscated
+
+# test files
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__test*
+
+# unnecessary for store
+obfuscate.js
+obfuscator.config.json
+VITE_MIGRATION.md
+MICROSOFT_STORE_DEPLOYMENT.md
+
+# duplicate folders (use src/ only)
+/components
+/hooks
+/lib
+/types
+
+# mobile/web icons (Windows store only)
+/public/icons/android
+/public/icons/ios
+/public/icons/macos
+/public/icons/web
+/public/manifest.json
+/public/sw.js
+/public/sakudoko-icon.png
+
+# scripts not needed for store
+/scripts
