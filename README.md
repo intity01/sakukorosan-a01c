@@ -1,4 +1,4 @@
-# 🍅 SakuDoko - Pomodoro Timer
+# SakuDoko - Pomodoro Timer
 
 <div align="center">
 
@@ -10,28 +10,28 @@
 
 ---
 
-## 📥 Download
+## Download
 
 **Get SakuDoko from Microsoft Store:**
 
-👉 **[Download Now](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH)**
+**[Download Now](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH)**
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎯 **Pomodoro Timer** - Focus sessions with customizable breaks
-- 📝 **Task Management** - Organize tasks with categories and priorities
-- 📊 **Progress Tracking** - Visual calendar and statistics
-- 🔔 **Desktop Notifications** - Native Windows notifications
-- ⌨️ **Keyboard Shortcuts** - Full keyboard navigation
-- 🎨 **Beautiful UI** - Modern design with smooth animations
-- 💾 **Local Storage** - All data stays on your device
-- 🌍 **Multi-language** - English, Thai, Japanese
+- **Pomodoro Timer** - Focus sessions with customizable breaks
+- **Task Management** - Organize tasks with categories and priorities
+- **Progress Tracking** - Visual calendar and statistics
+- **Desktop Notifications** - Native Windows notifications
+- **Keyboard Shortcuts** - Full keyboard navigation
+- **Beautiful UI** - Modern design with smooth animations
+- **Local Storage** - All data stays on your device
+- **Multi-language** - English, Thai, Japanese
 
 ---
 
-## 🔒 Privacy
+## Privacy
 
 SakuDoko respects your privacy:
 - ✅ No data collection
@@ -43,15 +43,15 @@ See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for details.
 
 ---
 
-## 📝 License
+## License
 
 MIT License
 
 ---
 
-## 👨‍💻 Developer
+## Developer
 
-**Naphatsadon**
+**MamiPoko**
 - Email: aoom5961@gmail.com
 - GitHub: [@intity01](https://github.com/intity01)
 
@@ -59,7 +59,7 @@ MIT License
 
 <div align="center">
 
-**Made with ❤️**
+**Made with Me**
 
 [Download on Microsoft Store](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH)
 
