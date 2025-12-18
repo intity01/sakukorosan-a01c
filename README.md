@@ -11,7 +11,7 @@
 **Get SakuDoko from Microsoft Store:**
 
 <a href="URL_แอปของคุณ_บน_STORE" target="_blank">
-  <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store" />
+  <img src="[https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH&ocid=pdpshare)" />
 </a>
 </div>
 
@@ -65,7 +65,7 @@ MIT License
 **Made with Me**
 
 <a href="URL_แอปของคุณ_บน_STORE" target="_blank">
-  <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store" />
+  <img src="[https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH&ocid=pdpshare)" />
 </a>
 
 </div>
