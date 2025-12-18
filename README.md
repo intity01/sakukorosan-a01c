@@ -2,41 +2,39 @@
 
   ## SakuDoko - Pomodoro Timer
 
-</div>
+  **A beautiful Pomodoro timer desktop app to boost your productivity**
 
-<div align="center">
+  ## Download
+  **Get SakuDoko from Microsoft Store:**
 
-**A beautiful Pomodoro timer desktop app to boost your productivity**
-## Download
-**Get SakuDoko from Microsoft Store:**
+  <a href="https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH&ocid=pdpshare" target="_blank">
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store" />
+  </a>
 
-<a href="URL_แอปของคุณ_บน_STORE" target="_blank">
-  <img src="[https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH&ocid=pdpshare)" />
-</a>
 </div>
 
 ## Features
 
+- **Pomodoro Timer**
+  - Focus sessions with customizable breaks
+- **Task Management**
+  - Organize tasks with categories and priorities
+- **Progress Tracking**
+  - Visual statistics
+- **Keyboard Shortcuts**
+  - Full keyboard navigation
+- **Beautiful UI**
+  - Modern design with smooth animations
+- **Local Storage**
+  - All data stays on your device
+- **Multi-language**
+  - English, Thai, Japanese
 
-- Focus sessions with customizable breaks
-**Pomodoro Timer** 
-- Organize tasks with categories and priorities
-**Task Management**
-- Visual statistics
-**Progress Tracking**
-- Full keyboard navigation
-**Keyboard Shortcuts**
-- Modern design with smooth animations
-**Beautiful UI**
-- All data stays on your device
-**Local Storage**
-- English, Thai, Japanese
-**Multi-language**
 ---
 
 ## Privacy
 
-- SakuDoko respects your privacy:
+SakuDoko respects your privacy:
 - No data collection
 - No internet connection required
 - All data stored locally on your device
@@ -62,10 +60,8 @@ MIT License
 
 <div align="center">
 
-**Made with Me**
-
-<a href="URL_แอปของคุณ_บน_STORE" target="_blank">
-  <img src="[https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store](https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH&ocid=pdpshare)" />
+<a href="https://apps.microsoft.com/detail/9NB7FHV3XLHW?hl=en-us&gl=TH&ocid=pdpshare" target="_blank">
+  <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store" />
 </a>
 
 </div>
